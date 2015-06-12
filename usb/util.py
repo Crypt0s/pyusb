@@ -107,7 +107,7 @@ def endpoint_address(address):
     return address & _ENDPOINT_ADDR_MASK
 
 def endpoint_direction(address):
-    r"""Return the endpoint direction.
+    """Return the endpoint direction.
 
     The address parameter is the bEndpointAddress field
     of the endpoint descriptor.
